@@ -1,0 +1,5 @@
+Varela Round
+Copyright 2011 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+The license text is available at https://openfontlicense.org
