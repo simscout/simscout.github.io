@@ -7,7 +7,6 @@
 <meta name="description" content="SimScout is a free Android app that compares travel eSIM plans for your exact trip dates, with every slowdown and data limit spelled out.">
 <meta name="theme-color" content="#160F22" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F1EAFB" media="(prefers-color-scheme: light)">
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%232A1D40%22/%3E%3Cg%20transform%3D%22translate%286.4%206.4%29%20scale%28.8%29%22%3E%3Cpath%20d%3D%22M14%204H41L56%2019V54a6%206%200%200%201-6%206H14a6%206%200%200%201-6-6V10a6%206%200%200%201%206-6Z%22%20fill%3D%22%23C9A7F5%22/%3E%3Crect%20x%3D%2213%22%20y%3D%2218%22%20width%3D%2216%22%20height%3D%2222%22%20rx%3D%226%22%20fill%3D%22%23160F22%22/%3E%3Crect%20x%3D%2235%22%20y%3D%2218%22%20width%3D%2216%22%20height%3D%2222%22%20rx%3D%226%22%20fill%3D%22%23160F22%22/%3E%3Crect%20x%3D%2227%22%20y%3D%2226%22%20width%3D%2210%22%20height%3D%229%22%20rx%3D%223%22%20fill%3D%22%23160F22%22/%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2238%22%20r%3D%2210%22%20fill%3D%22%23160F22%22/%3E%3Ccircle%20cx%3D%2243%22%20cy%3D%2238%22%20r%3D%2210%22%20fill%3D%22%23160F22%22/%3E%3Ccircle%20cx%3D%2221%22%20cy%3D%2238%22%20r%3D%225.5%22%20fill%3D%22%23C9A7F5%22/%3E%3Ccircle%20cx%3D%2243%22%20cy%3D%2238%22%20r%3D%225.5%22%20fill%3D%22%23C9A7F5%22/%3E%3Ccircle%20cx%3D%2218.6%22%20cy%3D%2235.6%22%20r%3D%221.6%22%20fill%3D%22%23F5E27A%22/%3E%3C/g%3E%3C/svg%3E">
 <style>
 @font-face{font-family:'Varela Round';font-display:swap;src:url(/fonts/varela-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2193, U+2212, U+2215, U+FEFF, U+FFFD}
 @font-face{font-family:'Varela Round';font-display:swap;src:url(/fonts/varela-hebrew.woff2) format('woff2');unicode-range:U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F}
@@ -42,7 +41,7 @@ h2{margin:0 0 10px;font-size:clamp(26px,4vw,36px);letter-spacing:-.01em;line-hei
 .sub{margin:0 0 30px;color:var(--muted);max-width:40em}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .f{padding:22px;background:var(--card);border:1px solid var(--line);border-radius:20px}
-.f .ic{display:grid;place-items:center;width:44px;height:44px;margin-bottom:12px;border-radius:14px;background:var(--card2);color:var(--acc);font-size:22px;font-weight:800}
+.f .ic{display:grid;place-items:center;width:48px;height:48px;margin-bottom:12px;border-radius:16px;background:var(--card2);font-size:24px}
 .f h3{margin:0 0 6px;font-size:19px}
 .f p{margin:0;font-size:15.5px;color:var(--muted)}
 .split{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}
@@ -68,6 +67,28 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 .supbtns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:18px}
 .supbtns .btn{cursor:pointer;font:inherit;font-weight:700;border:0}
 .supbtns .ghost{background:transparent;border:1px solid var(--line);color:inherit}
+.search{position:relative;max-width:520px;margin:0 0 14px}
+.search input{width:100%;min-height:60px;padding:14px 20px 14px 52px;border-radius:999px;border:2px solid var(--acc);background:var(--card);color:var(--ink);font:inherit;font-size:18px;outline:none;box-shadow:0 10px 30px rgba(120,80,200,.18)}
+.search input:focus{box-shadow:0 0 0 4px rgba(201,167,245,.35)}
+.search .mg{position:absolute;left:20px;top:50%;transform:translateY(-50%);font-size:20px;pointer-events:none}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:5;margin:0;padding:6px;list-style:none;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 20px 50px rgba(20,10,40,.25)}
+.sugg[hidden]{display:none}.sugg a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;color:var(--ink);text-decoration:none}
+.sugg a:hover,.sugg a[aria-selected=true]{background:var(--card2)}.sugg .fr{margin-left:auto;color:var(--muted);font-size:14px}
+.quick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--muted);margin:0 0 22px}
+.quick a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600}
+.quick a:hover{border-color:var(--acc)}
+.alt{font-size:15px}
+.points{display:flex;flex-wrap:wrap;gap:6px 18px;margin:22px 0 0;padding:0;list-style:none}
+.points li{font-size:14.5px;color:var(--muted);border:0;padding:0;border-radius:0}.points li::before{content:"✓";color:var(--acc);font-weight:800;margin-right:6px}
+.stats{padding:26px 0;border-top:1px solid var(--line)}
+.stats .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px}
+.nums{display:flex;gap:30px;flex-wrap:wrap}.nums b{display:block;font-size:28px;line-height:1.1}.nums span{font-size:13.5px;color:var(--muted)}
+.logos{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.logos img{width:34px;height:34px;border-radius:10px;background:#fff;border:1px solid var(--line)}
+.logos .lt{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--card2);border:1px solid var(--line);font-weight:800;font-size:14px}
+.logos small{color:var(--muted);font-size:13px;margin-right:6px}
+.destgrid a .fl{font-size:22px;margin-right:8px}.destgrid a{display:flex!important;align-items:center}.destgrid a .pr{display:block;font-size:13px;font-weight:400;color:var(--muted)}
+.destgrid a .tx{display:flex;flex-direction:column;line-height:1.25}
+@media(max-width:560px){.lead{font-size:17px}.search input{font-size:17px;min-height:56px}.nums{gap:20px}.nums b{font-size:24px}}
 @media (prefers-color-scheme:light){:root{--bg:#F1EAFB;--card:#FFFFFF;--card2:#F8F3FF;--line:#DDD0F2;--ink:#24163D;--muted:#685786;--acc:#7A4FC9;--on-acc:#FFFFFF;--gold:#B8860B;--heart:#E0457F;color-scheme:light}
 }
 </style>
@@ -89,24 +110,35 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   <div class="hero">
     <div>
       <h1>Scout the <span>cheapest data</span> for your trip.</h1>
-      <p class="lead">SimScout compares travel eSIM plans for your exact dates. Pick where you're going and the days you arrive and leave, and see every plan that lasts the whole trip, with each slowdown and data limit spelled out.</p>
-      <div class="cta"><a class="btn" href="app/">Compare eSIMs now</a><span class="soon">Free, right in your browser. Android app coming soon to Google Play.</span></div>
-      <ul class="points"><li>Over 230 destinations</li><li>Local and multi-country plans</li><li>Hundreds of providers</li><li>12 currencies, incl. shekels</li></ul>
+      <p class="lead">Compare travel eSIM plans from hundreds of providers for your exact dates, with every slowdown spelled out.</p>
+      <form class="search" role="search" action="app/" id="sform" autocomplete="off">
+        <span class="mg" aria-hidden="true">🔎</span>
+        <input id="q" name="q" type="search" placeholder="Where are you going?" aria-label="Where are you going?" aria-autocomplete="list" aria-controls="sugg" aria-expanded="false">
+        <ul class="sugg" id="sugg" role="listbox" hidden></ul>
+      </form>
+      <div class="quick"><span>Popular:</span><a href="esim/japan/">🇯🇵 Japan</a><a href="esim/thailand/">🇹🇭 Thailand</a><a href="esim/united-states/">🇺🇸 USA</a><a href="esim/italy/">🇮🇹 Italy</a><a href="esim/greece/">🇬🇷 Greece</a></div>
+      <div class="cta"><a class="btn" href="app/">Plan by exact dates</a><span class="soon">Free, no sign-up. Android app coming soon to Google Play.</span></div>
+      <ul class="points"><li>230+ destinations</li><li>Local and multi-country plans</li><li>Prices refreshed daily</li><li>12 currencies</li></ul>
     </div>
-    <div class="phone"><img src="shot-search.jpg" alt="SimScout results for a 10-day trip to Japan, with prices and promo codes" width="390" height="844"></div>
+    <div class="phone"><img src="shot-search.jpg" alt="SimScout results for a 10-day trip to Japan: plans from Stellar eSIM and ASIMGO with prices, 5G, hotspot and a SimScout discount code" width="390" height="844"></div>
   </div>
 </main>
+
+<div class="stats"><div class="wrap">
+  <div class="nums"><div><b id="sPlans">49,000+</b><span>plans compared</span></div><div><b id="sProv">280+</b><span>eSIM providers</span></div><div><b id="sUpd">Daily</b><span>price updates</span></div></div>
+  <div class="logos" id="logos"><small>Live prices from</small></div>
+</div></div>
 
 <section id="features"><div class="wrap">
   <h2>Everything you need to pick the right eSIM</h2>
   <p class="sub">Built for travellers who hate overpaying and hate surprises even more.</p>
   <div class="grid">
-    <div class="f"><div class="ic">▦</div><h3>Your exact trip</h3><p>Tap your arrival and departure days on a calendar. Only plans that cover every day are shown.</p></div>
-    <div class="f"><div class="ic">∞</div><h3>Honest "unlimited"</h3><p>Plans that slow down after a daily amount are flagged with the exact limit and the speed you drop to.</p></div>
-    <div class="f"><div class="ic">%</div><h3>Promo codes included</h3><p>Prices include working promo codes, with a switch to hide codes that are only for new customers.</p></div>
-    <div class="f"><div class="ic">⇅</div><h3>Mix your own ranking</h3><p>Tap what matters, in order: cheapest, data quality, most data, most popular or top rated.</p></div>
-    <div class="f"><div class="ic" style="color:var(--heart)">♥</div><h3>Save and compare</h3><p>Heart a few plans and see them side by side for your trip, with the best pick marked.</p></div>
-    <div class="f"><div class="ic">★</div><h3>Remember what worked</h3><p>Keep a list of the eSIMs you chose and rate each one, so next trip is a two-second decision.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">📅</div><h3>Your exact trip</h3><p>Tap your arrival and departure days on a calendar. Only plans that cover every day are shown.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">♾️</div><h3>Honest "unlimited"</h3><p>Plans that slow down after a daily amount are flagged with the exact limit and the speed you drop to.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">🏷️</div><h3>Promo codes included</h3><p>Prices include working promo codes, with a switch to hide codes that are only for new customers.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">🎚️</div><h3>Mix your own ranking</h3><p>Tap what matters, in order: cheapest, data quality, most data, most popular or top rated.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">❤️</div><h3>Save and compare</h3><p>Heart a few plans and see them side by side for your trip, with the best pick marked.</p></div>
+    <div class="f"><div class="ic" aria-hidden="true">⭐</div><h3>Remember what worked</h3><p>Keep a list of the eSIMs you chose and rate each one, so next trip is a two-second decision.</p></div>
   </div>
 </div></section>
 
@@ -123,7 +155,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   </div>
 </div></section>
 
-<section id="destinations"><div class="wrap"><h2>Popular destinations</h2><p class="sub">Today’s cheapest eSIM plans for each country, refreshed daily.</p><div class="destgrid"><a href="esim/greece/">Greece</a><a href="esim/italy/">Italy</a><a href="esim/spain/">Spain</a><a href="esim/france/">France</a><a href="esim/united-kingdom/">United Kingdom</a><a href="esim/united-states/">United States</a><a href="esim/japan/">Japan</a><a href="esim/thailand/">Thailand</a><a href="esim/turkey/">Turkey</a><a href="esim/cyprus/">Cyprus</a><a href="esim/germany/">Germany</a><a href="esim/egypt/">Egypt</a></div><p class="destall"><a href="esim/">All destinations →</a> · <a href="he/esim/" hreflang="he" lang="he">כל היעדים בעברית</a></p></div></section>
+<section id="destinations"><div class="wrap"><h2>Popular destinations</h2><p class="sub">Today’s cheapest plan with at least 1 GB for a week, refreshed daily.</p><div class="destgrid" id="dgrid"><a href="esim/greece/" data-c="GR"><span class="fl" aria-hidden="true">🇬🇷</span><span class="tx">Greece<span class="pr"></span></span></a><a href="esim/italy/" data-c="IT"><span class="fl" aria-hidden="true">🇮🇹</span><span class="tx">Italy<span class="pr"></span></span></a><a href="esim/spain/" data-c="ES"><span class="fl" aria-hidden="true">🇪🇸</span><span class="tx">Spain<span class="pr"></span></span></a><a href="esim/france/" data-c="FR"><span class="fl" aria-hidden="true">🇫🇷</span><span class="tx">France<span class="pr"></span></span></a><a href="esim/united-kingdom/" data-c="GB"><span class="fl" aria-hidden="true">🇬🇧</span><span class="tx">United Kingdom<span class="pr"></span></span></a><a href="esim/united-states/" data-c="US"><span class="fl" aria-hidden="true">🇺🇸</span><span class="tx">United States<span class="pr"></span></span></a><a href="esim/japan/" data-c="JP"><span class="fl" aria-hidden="true">🇯🇵</span><span class="tx">Japan<span class="pr"></span></span></a><a href="esim/thailand/" data-c="TH"><span class="fl" aria-hidden="true">🇹🇭</span><span class="tx">Thailand<span class="pr"></span></span></a><a href="esim/turkey/" data-c="TR"><span class="fl" aria-hidden="true">🇹🇷</span><span class="tx">Turkey<span class="pr"></span></span></a><a href="esim/cyprus/" data-c="CY"><span class="fl" aria-hidden="true">🇨🇾</span><span class="tx">Cyprus<span class="pr"></span></span></a><a href="esim/germany/" data-c="DE"><span class="fl" aria-hidden="true">🇩🇪</span><span class="tx">Germany<span class="pr"></span></span></a><a href="esim/egypt/" data-c="EG"><span class="fl" aria-hidden="true">🇪🇬</span><span class="tx">Egypt<span class="pr"></span></span></a></div><p class="destall"><a href="esim/">All destinations →</a> · <a href="he/esim/" hreflang="he" lang="he">כל היעדים בעברית</a></p></div></section>
 
 <section id="support"><div class="wrap supportbox">
   <h2>Like SimScout? Help us grow</h2>
@@ -144,5 +176,30 @@ if(navigator.share){navigator.share({title:'SimScout',text:x,url:u}).catch(funct
 </main>
 
 <footer><div class="wrap"><span>© 2026 SimScout</span><span><a href="contact.html" style="color:inherit">Contact us</a> · <a href="privacy.html" style="color:inherit">Privacy policy</a> · <a href="mailto:esimscout@gmail.com" style="color:inherit">esimscout@gmail.com</a></span><span>Made by travellers, for travellers everywhere</span></div></footer>
+<script>
+(function(){
+var F=function(c){return c.replace(/./g,function(ch){return String.fromCodePoint(127397+ch.charCodeAt(0))})};
+var D=[],q=document.getElementById('q'),ul=document.getElementById('sugg'),sel=-1;
+function norm(x){return (x||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
+var ALIAS={usa:'US',us:'US',america:'US',uk:'GB',england:'GB',britain:'GB',uae:'AE',dubai:'AE',holland:'NL',korea:'KR'};
+function show(){var v=norm(q.value.trim());if(!v||!D.length){ul.hidden=true;q.setAttribute('aria-expanded','false');return}
+var a=D.filter(function(d){return norm(d.en).indexOf(v)===0||d.he.indexOf(q.value.trim())===0||ALIAS[v]===d.c}),b=D.filter(function(d){return a.indexOf(d)<0&&norm(d.en).indexOf(v)>0});
+var l=a.concat(b).slice(0,6);sel=l.length?0:-1;
+ul.innerHTML=l.map(function(d,i){var he=/[\u0590-\u05FF]/.test(q.value);return '<li><a role="option" aria-selected="'+(i===0)+'" href="'+(he?'he/':'')+'esim/'+d.slug+'/"><span>'+F(d.c)+'</span><span>'+(he?d.he:d.en)+'</span><span class="fr">from $'+d.from.toFixed(2)+'</span></a></li>'}).join('')||'<li><a href="app/">Search all destinations in the app</a></li>';
+ul.hidden=false;q.setAttribute('aria-expanded','true')}
+q.addEventListener('input',show);q.addEventListener('focus',show);
+q.addEventListener('keydown',function(e){var o=ul.querySelectorAll('a');if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(!o.length)return;sel=(sel+(e.key==='ArrowDown'?1:o.length-1))%o.length;o.forEach(function(x,i){x.setAttribute('aria-selected',i===sel)})}
+else if(e.key==='Escape'){ul.hidden=true}});
+document.getElementById('sform').addEventListener('submit',function(e){var o=ul.querySelectorAll('a');e.preventDefault();if(o.length&&!ul.hidden){location.href=o[Math.max(sel,0)].getAttribute('href')}else{location.href='app/'}});
+document.addEventListener('click',function(e){if(!e.target.closest('.search'))ul.hidden=true});
+fetch('destinations.json').then(function(r){return r.json()}).then(function(d){D=d;var by={};d.forEach(function(x){by[x.c]=x});
+document.querySelectorAll('#dgrid a[data-c]').forEach(function(a){var x=by[a.dataset.c];if(x)a.querySelector('.pr').textContent='from $'+x.from.toFixed(2)})}).catch(function(){});
+fetch('stats.json').then(function(r){return r.json()}).then(function(s){
+if(s.plans)document.getElementById('sPlans').textContent=(Math.floor(s.plans/1000)*1000).toLocaleString('en-US')+'+';
+if(s.providers)document.getElementById('sProv').textContent=(Math.floor(s.providers/10)*10)+'+';
+if(s.updated){var t=new Date(s.updated+'T12:00:00Z'),n=new Date(),dd=Math.round((n-t)/864e5);document.getElementById('sUpd').textContent=dd<=1?'Today':t.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}
+var L=document.getElementById('logos');(s.partners||[]).forEach(function(p){var el;if(/^data:image\/png;base64,[A-Za-z0-9+\/=]+$/.test(p.logo||'')){el=document.createElement('img');el.src=p.logo;el.alt='';}else{el=document.createElement('span');el.className='lt';el.textContent=(p.name||'?')[0]}el.title=p.name;L.appendChild(el)})}).catch(function(){});
+})();
+</script>
 </body>
 </html>
