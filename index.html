@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SimScout: the cheapest eSIM for your exact trip</title>
-<meta name="description" content="SimScout is a free Android app that compares travel eSIM plans for your exact trip dates, with every slowdown and data limit spelled out.">
+<meta name="description" content="SimScout compares thousands of travel eSIM plans from trusted providers for your exact trip dates, with every slowdown and data limit spelled out. Free.">
 <meta name="theme-color" content="#160F22" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F1EAFB" media="(prefers-color-scheme: light)">
 <style>
@@ -110,7 +110,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   <div class="hero">
     <div>
       <h1>Scout the <span>cheapest data</span> for your trip.</h1>
-      <p class="lead">Compare travel eSIM plans from hundreds of providers for your exact dates, with every slowdown spelled out.</p>
+      <p class="lead">Compare thousands of travel eSIM plans from trusted providers for your exact dates, with every slowdown spelled out.</p>
       <form class="search" role="search" action="app/" id="sform" autocomplete="off">
         <span class="mg" aria-hidden="true">🔎</span>
         <input id="q" name="q" type="search" placeholder="Where are you going?" aria-label="Where are you going?" aria-autocomplete="list" aria-controls="sugg" aria-expanded="false">
@@ -125,7 +125,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 </main>
 
 <div class="stats"><div class="wrap">
-  <div class="nums"><div><b id="sPlans">49,000+</b><span>plans compared</span></div><div><b id="sProv">280+</b><span>eSIM providers</span></div><div><b id="sUpd">Daily</b><span>price updates</span></div></div>
+  <div class="nums"><div><b id="sPlans">49,000+</b><span>plans compared</span></div><div><b id="sProv">9</b><span>partner providers</span></div><div><b id="sUpd">Daily</b><span>price updates</span></div></div>
   <div class="logos" id="logos"><small>Live prices from</small></div>
 </div></div>
 
@@ -196,7 +196,7 @@ fetch('destinations.json').then(function(r){return r.json()}).then(function(d){D
 document.querySelectorAll('#dgrid a[data-c]').forEach(function(a){var x=by[a.dataset.c];if(x)a.querySelector('.pr').textContent='from $'+x.from.toFixed(2)})}).catch(function(){});
 fetch('stats.json').then(function(r){return r.json()}).then(function(s){
 if(s.plans)document.getElementById('sPlans').textContent=(Math.floor(s.plans/1000)*1000).toLocaleString('en-US')+'+';
-if(s.providers)document.getElementById('sProv').textContent=(Math.floor(s.providers/10)*10)+'+';
+if(s.own)document.getElementById('sProv').textContent=s.own;
 if(s.updated){var t=new Date(s.updated+'T12:00:00Z'),n=new Date(),dd=Math.round((n-t)/864e5);document.getElementById('sUpd').textContent=dd<=1?'Today':t.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}
 var L=document.getElementById('logos');(s.partners||[]).forEach(function(p){var el;if(/^data:image\/png;base64,[A-Za-z0-9+\/=]+$/.test(p.logo||'')){el=document.createElement('img');el.src=p.logo;el.alt='';}else{el=document.createElement('span');el.className='lt';el.textContent=(p.name||'?')[0]}el.title=p.name;L.appendChild(el)})}).catch(function(){});
 })();
