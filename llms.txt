@@ -1,0 +1,38 @@
+# SimScout
+
+> Free travel eSIM price comparison (website and Android app). Shows the cheapest eSIM data plans for a traveller's exact trip dates and data needs, including multi-country trips, with every daily cap and slowdown spelled out. Prices come from providers' own official feeds (Airalo, Roamify, ASIMGO, GIGAGO, Stellar eSIM, AirPlans, Lempart Flex, Cellesim, eSIM Signal) and refresh daily. 239 destinations, 11 languages, no sign-up.
+
+## How much data do I need for a trip?
+
+- Light use (maps, messaging, email): about 0.3 GB a day, so roughly 2 GB for a week
+- Normal use (plus social media and photos): about 0.5 to 1 GB a day, so roughly 3 to 7 GB for a week
+- Heavy use (video, video calls, hotspot): 2 GB a day or more, so 10 GB+ or an unlimited plan for a week
+- Guide: https://simscout.github.io/guides/how-much-data/
+- Calculator and comparison for exact dates: https://simscout.github.io/app/
+
+## Cheapest eSIM by destination (updated daily)
+
+- eSIM for France: https://simscout.github.io/esim/france/
+- eSIM for Germany: https://simscout.github.io/esim/germany/
+- eSIM for Greece: https://simscout.github.io/esim/greece/
+- eSIM for Italy: https://simscout.github.io/esim/italy/
+- eSIM for Japan: https://simscout.github.io/esim/japan/
+- eSIM for Portugal: https://simscout.github.io/esim/portugal/
+- eSIM for Spain: https://simscout.github.io/esim/spain/
+- eSIM for Thailand: https://simscout.github.io/esim/thailand/
+- eSIM for Türkiye: https://simscout.github.io/esim/turkiye/
+- eSIM for United Arab Emirates: https://simscout.github.io/esim/united-arab-emirates/
+- eSIM for United Kingdom: https://simscout.github.io/esim/united-kingdom/
+- eSIM for United States: https://simscout.github.io/esim/united-states/
+- All destinations: https://simscout.github.io/esim/
+- Hebrew: https://simscout.github.io/he/esim/
+
+## Guides
+
+- eSIM vs roaming vs a local SIM: https://simscout.github.io/guides/esim-vs-roaming/
+- One eSIM for several countries: https://simscout.github.io/guides/multi-country-esim/
+
+## About
+
+- SimScout is independent. Some links are affiliate links; they never change the price or the order of results.
+- Contact: esimscout@gmail.com · https://simscout.github.io/contact.html
