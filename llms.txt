@@ -37,47 +37,103 @@
 - eSIM for Chiang Mai (Thailand): https://simscout.github.io/esim/thailand/chiang-mai/
 - eSIM for Koh Samui (Thailand): https://simscout.github.io/esim/thailand/koh-samui/
 - eSIM for Koh Phangan (Thailand): https://simscout.github.io/esim/thailand/koh-phangan/
+- eSIM for Pattaya (Thailand): https://simscout.github.io/esim/thailand/pattaya/
+- eSIM for Krabi (Thailand): https://simscout.github.io/esim/thailand/krabi/
 - eSIM for New York (United States): https://simscout.github.io/esim/united-states/new-york/
 - eSIM for Los Angeles (United States): https://simscout.github.io/esim/united-states/los-angeles/
 - eSIM for Las Vegas (United States): https://simscout.github.io/esim/united-states/las-vegas/
 - eSIM for Miami (United States): https://simscout.github.io/esim/united-states/miami/
 - eSIM for San Francisco (United States): https://simscout.github.io/esim/united-states/san-francisco/
+- eSIM for Orlando (United States): https://simscout.github.io/esim/united-states/orlando/
+- eSIM for Chicago (United States): https://simscout.github.io/esim/united-states/chicago/
+- eSIM for Washington (United States): https://simscout.github.io/esim/united-states/washington/
 - eSIM for London (United Kingdom): https://simscout.github.io/esim/united-kingdom/london/
+- eSIM for Edinburgh (United Kingdom): https://simscout.github.io/esim/united-kingdom/edinburgh/
+- eSIM for Manchester (United Kingdom): https://simscout.github.io/esim/united-kingdom/manchester/
 - eSIM for Paris (France): https://simscout.github.io/esim/france/paris/
+- eSIM for Nice (France): https://simscout.github.io/esim/france/nice/
 - eSIM for Rome (Italy): https://simscout.github.io/esim/italy/rome/
 - eSIM for Milan (Italy): https://simscout.github.io/esim/italy/milan/
 - eSIM for Venice (Italy): https://simscout.github.io/esim/italy/venice/
 - eSIM for Florence (Italy): https://simscout.github.io/esim/italy/florence/
+- eSIM for Naples (Italy): https://simscout.github.io/esim/italy/naples/
 - eSIM for Barcelona (Spain): https://simscout.github.io/esim/spain/barcelona/
 - eSIM for Madrid (Spain): https://simscout.github.io/esim/spain/madrid/
+- eSIM for Ibiza (Spain): https://simscout.github.io/esim/spain/ibiza/
+- eSIM for Tenerife (Spain): https://simscout.github.io/esim/spain/tenerife/
+- eSIM for Mallorca (Spain): https://simscout.github.io/esim/spain/mallorca/
+- eSIM for Seville (Spain): https://simscout.github.io/esim/spain/seville/
 - eSIM for Lisbon (Portugal): https://simscout.github.io/esim/portugal/lisbon/
+- eSIM for Porto (Portugal): https://simscout.github.io/esim/portugal/porto/
 - eSIM for Berlin (Germany): https://simscout.github.io/esim/germany/berlin/
 - eSIM for Munich (Germany): https://simscout.github.io/esim/germany/munich/
+- eSIM for Frankfurt (Germany): https://simscout.github.io/esim/germany/frankfurt/
 - eSIM for Amsterdam (Netherlands): https://simscout.github.io/esim/netherlands/amsterdam/
+- eSIM for Zurich (Switzerland): https://simscout.github.io/esim/switzerland/zurich/
 - eSIM for Vienna (Austria): https://simscout.github.io/esim/austria/vienna/
 - eSIM for Prague (Czechia): https://simscout.github.io/esim/czechia/prague/
 - eSIM for Budapest (Hungary): https://simscout.github.io/esim/hungary/budapest/
+- eSIM for Krakow (Poland): https://simscout.github.io/esim/poland/krakow/
 - eSIM for Athens (Greece): https://simscout.github.io/esim/greece/athens/
 - eSIM for Santorini (Greece): https://simscout.github.io/esim/greece/santorini/
+- eSIM for Mykonos (Greece): https://simscout.github.io/esim/greece/mykonos/
 - eSIM for Crete (Greece): https://simscout.github.io/esim/greece/crete/
 - eSIM for Rhodes (Greece): https://simscout.github.io/esim/greece/rhodes/
 - eSIM for Larnaca (Cyprus): https://simscout.github.io/esim/cyprus/larnaca/
+- eSIM for Paphos (Cyprus): https://simscout.github.io/esim/cyprus/paphos/
+- eSIM for Limassol (Cyprus): https://simscout.github.io/esim/cyprus/limassol/
+- eSIM for Ayia Napa (Cyprus): https://simscout.github.io/esim/cyprus/ayia-napa/
+- eSIM for Bucharest (Romania): https://simscout.github.io/esim/romania/bucharest/
+- eSIM for Sofia (Bulgaria): https://simscout.github.io/esim/bulgaria/sofia/
+- eSIM for Varna (Bulgaria): https://simscout.github.io/esim/bulgaria/varna/
+- eSIM for Dubrovnik (Croatia): https://simscout.github.io/esim/croatia/dubrovnik/
+- eSIM for Split (Croatia): https://simscout.github.io/esim/croatia/split/
+- eSIM for Budva (Montenegro): https://simscout.github.io/esim/montenegro/budva/
 - eSIM for Tbilisi (Georgia): https://simscout.github.io/esim/georgia/tbilisi/
 - eSIM for Batumi (Georgia): https://simscout.github.io/esim/georgia/batumi/
 - eSIM for Istanbul (Türkiye): https://simscout.github.io/esim/turkiye/istanbul/
 - eSIM for Antalya (Türkiye): https://simscout.github.io/esim/turkiye/antalya/
 - eSIM for Dubai (United Arab Emirates): https://simscout.github.io/esim/united-arab-emirates/dubai/
 - eSIM for Abu Dhabi (United Arab Emirates): https://simscout.github.io/esim/united-arab-emirates/abu-dhabi/
+- eSIM for Sharm El Sheikh (Egypt): https://simscout.github.io/esim/egypt/sharm-el-sheikh/
+- eSIM for Cairo (Egypt): https://simscout.github.io/esim/egypt/cairo/
+- eSIM for Marrakech (Morocco): https://simscout.github.io/esim/morocco/marrakech/
 - eSIM for Tel Aviv (Israel): https://simscout.github.io/esim/israel/tel-aviv/
 - eSIM for Jerusalem (Israel): https://simscout.github.io/esim/israel/jerusalem/
 - eSIM for Goa (India): https://simscout.github.io/esim/india/goa/
+- eSIM for Mumbai (India): https://simscout.github.io/esim/india/mumbai/
+- eSIM for Delhi (India): https://simscout.github.io/esim/india/delhi/
+- eSIM for Kathmandu (Nepal): https://simscout.github.io/esim/nepal/kathmandu/
+- eSIM for Colombo (Sri Lanka): https://simscout.github.io/esim/sri-lanka/colombo/
 - eSIM for Hanoi (Vietnam): https://simscout.github.io/esim/vietnam/hanoi/
 - eSIM for Ho Chi Minh City (Vietnam): https://simscout.github.io/esim/vietnam/ho-chi-minh-city/
+- eSIM for Da Nang (Vietnam): https://simscout.github.io/esim/vietnam/da-nang/
 - eSIM for Bali (Indonesia): https://simscout.github.io/esim/indonesia/bali/
+- eSIM for Manila (Philippines): https://simscout.github.io/esim/philippines/manila/
 - eSIM for Kuala Lumpur (Malaysia): https://simscout.github.io/esim/malaysia/kuala-lumpur/
 - eSIM for Seoul (South Korea): https://simscout.github.io/esim/south-korea/seoul/
+- eSIM for Busan (South Korea): https://simscout.github.io/esim/south-korea/busan/
+- eSIM for Beijing (China): https://simscout.github.io/esim/china/beijing/
+- eSIM for Shanghai (China): https://simscout.github.io/esim/china/shanghai/
 - eSIM for Sydney (Australia): https://simscout.github.io/esim/australia/sydney/
+- eSIM for Melbourne (Australia): https://simscout.github.io/esim/australia/melbourne/
+- eSIM for Auckland (New Zealand): https://simscout.github.io/esim/new-zealand/auckland/
 - eSIM for Cancun (Mexico): https://simscout.github.io/esim/mexico/cancun/
+- eSIM for Mexico City (Mexico): https://simscout.github.io/esim/mexico/mexico-city/
+- eSIM for Toronto (Canada): https://simscout.github.io/esim/canada/toronto/
+- eSIM for Vancouver (Canada): https://simscout.github.io/esim/canada/vancouver/
+- eSIM for Rio de Janeiro (Brazil): https://simscout.github.io/esim/brazil/rio-de-janeiro/
+- eSIM for Buenos Aires (Argentina): https://simscout.github.io/esim/argentina/buenos-aires/
+- eSIM for Cusco (Peru): https://simscout.github.io/esim/peru/cusco/
+- eSIM for Cape Town (South Africa): https://simscout.github.io/esim/south-africa/cape-town/
+- eSIM for Zanzibar (Tanzania): https://simscout.github.io/esim/tanzania/zanzibar/
+- eSIM for Reykjavik (Iceland): https://simscout.github.io/esim/iceland/reykjavik/
+- eSIM for Dublin (Ireland): https://simscout.github.io/esim/ireland/dublin/
+- eSIM for Copenhagen (Denmark): https://simscout.github.io/esim/denmark/copenhagen/
+- eSIM for Stockholm (Sweden): https://simscout.github.io/esim/sweden/stockholm/
+- eSIM for Belgrade (Serbia): https://simscout.github.io/esim/serbia/belgrade/
+- eSIM for Tirana (Albania): https://simscout.github.io/esim/albania/tirana/
+- eSIM for Baku (Azerbaijan): https://simscout.github.io/esim/azerbaijan/baku/
 
 ## Guides
 
