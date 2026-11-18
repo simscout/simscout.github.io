@@ -27,6 +27,58 @@
 - All destinations: https://simscout.github.io/esim/
 - Hebrew: https://simscout.github.io/he/esim/
 
+## Cheapest eSIM by city
+
+- eSIM for Tokyo (Japan): https://simscout.github.io/esim/japan/tokyo/
+- eSIM for Osaka (Japan): https://simscout.github.io/esim/japan/osaka/
+- eSIM for Kyoto (Japan): https://simscout.github.io/esim/japan/kyoto/
+- eSIM for Bangkok (Thailand): https://simscout.github.io/esim/thailand/bangkok/
+- eSIM for Phuket (Thailand): https://simscout.github.io/esim/thailand/phuket/
+- eSIM for Chiang Mai (Thailand): https://simscout.github.io/esim/thailand/chiang-mai/
+- eSIM for Koh Samui (Thailand): https://simscout.github.io/esim/thailand/koh-samui/
+- eSIM for Koh Phangan (Thailand): https://simscout.github.io/esim/thailand/koh-phangan/
+- eSIM for New York (United States): https://simscout.github.io/esim/united-states/new-york/
+- eSIM for Los Angeles (United States): https://simscout.github.io/esim/united-states/los-angeles/
+- eSIM for Las Vegas (United States): https://simscout.github.io/esim/united-states/las-vegas/
+- eSIM for Miami (United States): https://simscout.github.io/esim/united-states/miami/
+- eSIM for San Francisco (United States): https://simscout.github.io/esim/united-states/san-francisco/
+- eSIM for London (United Kingdom): https://simscout.github.io/esim/united-kingdom/london/
+- eSIM for Paris (France): https://simscout.github.io/esim/france/paris/
+- eSIM for Rome (Italy): https://simscout.github.io/esim/italy/rome/
+- eSIM for Milan (Italy): https://simscout.github.io/esim/italy/milan/
+- eSIM for Venice (Italy): https://simscout.github.io/esim/italy/venice/
+- eSIM for Florence (Italy): https://simscout.github.io/esim/italy/florence/
+- eSIM for Barcelona (Spain): https://simscout.github.io/esim/spain/barcelona/
+- eSIM for Madrid (Spain): https://simscout.github.io/esim/spain/madrid/
+- eSIM for Lisbon (Portugal): https://simscout.github.io/esim/portugal/lisbon/
+- eSIM for Berlin (Germany): https://simscout.github.io/esim/germany/berlin/
+- eSIM for Munich (Germany): https://simscout.github.io/esim/germany/munich/
+- eSIM for Amsterdam (Netherlands): https://simscout.github.io/esim/netherlands/amsterdam/
+- eSIM for Vienna (Austria): https://simscout.github.io/esim/austria/vienna/
+- eSIM for Prague (Czechia): https://simscout.github.io/esim/czechia/prague/
+- eSIM for Budapest (Hungary): https://simscout.github.io/esim/hungary/budapest/
+- eSIM for Athens (Greece): https://simscout.github.io/esim/greece/athens/
+- eSIM for Santorini (Greece): https://simscout.github.io/esim/greece/santorini/
+- eSIM for Crete (Greece): https://simscout.github.io/esim/greece/crete/
+- eSIM for Rhodes (Greece): https://simscout.github.io/esim/greece/rhodes/
+- eSIM for Larnaca (Cyprus): https://simscout.github.io/esim/cyprus/larnaca/
+- eSIM for Tbilisi (Georgia): https://simscout.github.io/esim/georgia/tbilisi/
+- eSIM for Batumi (Georgia): https://simscout.github.io/esim/georgia/batumi/
+- eSIM for Istanbul (Türkiye): https://simscout.github.io/esim/turkiye/istanbul/
+- eSIM for Antalya (Türkiye): https://simscout.github.io/esim/turkiye/antalya/
+- eSIM for Dubai (United Arab Emirates): https://simscout.github.io/esim/united-arab-emirates/dubai/
+- eSIM for Abu Dhabi (United Arab Emirates): https://simscout.github.io/esim/united-arab-emirates/abu-dhabi/
+- eSIM for Tel Aviv (Israel): https://simscout.github.io/esim/israel/tel-aviv/
+- eSIM for Jerusalem (Israel): https://simscout.github.io/esim/israel/jerusalem/
+- eSIM for Goa (India): https://simscout.github.io/esim/india/goa/
+- eSIM for Hanoi (Vietnam): https://simscout.github.io/esim/vietnam/hanoi/
+- eSIM for Ho Chi Minh City (Vietnam): https://simscout.github.io/esim/vietnam/ho-chi-minh-city/
+- eSIM for Bali (Indonesia): https://simscout.github.io/esim/indonesia/bali/
+- eSIM for Kuala Lumpur (Malaysia): https://simscout.github.io/esim/malaysia/kuala-lumpur/
+- eSIM for Seoul (South Korea): https://simscout.github.io/esim/south-korea/seoul/
+- eSIM for Sydney (Australia): https://simscout.github.io/esim/australia/sydney/
+- eSIM for Cancun (Mexico): https://simscout.github.io/esim/mexico/cancun/
+
 ## Guides
 
 - eSIM vs roaming vs a local SIM: https://simscout.github.io/guides/esim-vs-roaming/
