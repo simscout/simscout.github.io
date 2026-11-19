@@ -1,6 +1,6 @@
 # SimScout
 
-> Free travel eSIM price comparison (website and Android app). Shows the cheapest eSIM data plans for a traveller's exact trip dates and data needs, including multi-country trips, with every daily cap and slowdown spelled out. Prices come from providers' own official feeds (Airalo, Roamify, ASIMGO, GIGAGO, Stellar eSIM, AirPlans, Lempart Flex, Cellesim, eSIM Signal, CloudOn, MobiMatter, eSIM.dog, AeriSIM) and refresh daily. 239 destinations, 11 languages, no sign-up.
+> Free travel eSIM price comparison (website and Android app). Shows the cheapest eSIM data plans for a traveller's exact trip dates and data needs, including multi-country trips, with every daily cap and slowdown spelled out. Prices come from providers' own official feeds (Airalo, Roamify, ASIMGO, GIGAGO, Stellar eSIM, AirPlans, Lempart Flex, Cellesim, eSIM Signal, CloudOn, MobiMatter, eSIM.dog, Pelesim, AeriSIM, Glowi eSIM) and refresh daily. 239 destinations, 11 languages, no sign-up.
 
 ## How much data do I need for a trip?
 
